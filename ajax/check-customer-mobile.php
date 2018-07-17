@@ -11,7 +11,6 @@ if(customer_mobile_exists($con, $mobile) === true ) {
 	$isAvailable = true;
 }
 
-
 // Finally, return a JSON
 echo json_encode(array(
     'valid' => $isAvailable,
